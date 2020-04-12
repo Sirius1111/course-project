@@ -1,0 +1,11 @@
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Step2.resources
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.loader.resources
