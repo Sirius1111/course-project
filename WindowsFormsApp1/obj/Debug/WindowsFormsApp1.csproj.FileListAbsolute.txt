@@ -9,3 +9,7 @@ E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsAp
 E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Step2.resources
 E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.loader.resources
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Change.resources
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ListProducts.resources
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Title.resources
+E:\programming\c#\Задания\course-project-2-semestr\project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.GuitarPlant.resources

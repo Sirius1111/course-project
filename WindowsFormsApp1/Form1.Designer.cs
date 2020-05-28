@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.nextStep = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -39,6 +40,7 @@
             this.code = new System.Windows.Forms.Label();
             this.description = new System.Windows.Forms.Label();
             this.titleTheme = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -80,9 +82,9 @@
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(7, 128);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(191, 35);
+            this.button3.Size = new System.Drawing.Size(191, 43);
             this.button3.TabIndex = 1;
-            this.button3.Text = "3 Гитара";
+            this.button3.Text = "Примеры данных о рисунках";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -95,7 +97,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(191, 35);
             this.button2.TabIndex = 1;
-            this.button2.Text = "2 Гитара";
+            this.button2.Text = "Разновидности гитар";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
@@ -109,7 +111,7 @@
             this.task.Name = "task";
             this.task.Size = new System.Drawing.Size(191, 35);
             this.task.TabIndex = 1;
-            this.task.Text = "1 гитара";
+            this.task.Text = "Оснрвная информация";
             this.task.UseVisualStyleBackColor = true;
             this.task.Click += new System.EventHandler(this.task_Click);
             // 
@@ -161,9 +163,9 @@
             this.code.Location = new System.Drawing.Point(24, 92);
             this.code.MaximumSize = new System.Drawing.Size(500, 0);
             this.code.Name = "code";
-            this.code.Size = new System.Drawing.Size(52, 15);
+            this.code.Size = new System.Drawing.Size(152, 15);
             this.code.TabIndex = 2;
-            this.code.Text = "label1";
+            this.code.Text = "Важная информация";
             // 
             // description
             // 
@@ -172,9 +174,9 @@
             this.description.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.description.Location = new System.Drawing.Point(20, 46);
             this.description.Name = "description";
-            this.description.Size = new System.Drawing.Size(165, 20);
+            this.description.Size = new System.Drawing.Size(120, 20);
             this.description.TabIndex = 1;
-            this.description.Text = "Lorem ipsum блаблабла";
+            this.description.Text = "Какой-то текст";
             // 
             // titleTheme
             // 
@@ -183,9 +185,9 @@
             this.titleTheme.ForeColor = System.Drawing.Color.Gold;
             this.titleTheme.Location = new System.Drawing.Point(20, 15);
             this.titleTheme.Name = "titleTheme";
-            this.titleTheme.Size = new System.Drawing.Size(95, 30);
+            this.titleTheme.Size = new System.Drawing.Size(245, 30);
             this.titleTheme.TabIndex = 0;
-            this.titleTheme.Text = "Тема 1";
+            this.titleTheme.Text = "Какой-то заголовок";
             // 
             // Form1
             // 
@@ -219,6 +221,7 @@
         public System.Windows.Forms.Label description;
         private System.Windows.Forms.Label code;
         private System.Windows.Forms.Button nextStep;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

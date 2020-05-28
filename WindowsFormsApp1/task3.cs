@@ -8,8 +8,8 @@ namespace WindowsFormsApp1
 {
     abstract class TwoDShape
 {
-    double pri_width;
-    double pri_height;
+    public double pri_width;
+    public double pri_height;
     // Конструктор по умолчанию.
     public TwoDShape()
     {
@@ -25,12 +25,6 @@ namespace WindowsFormsApp1
     public TwoDShape(double x)
     {
         Width = Height = x;
-    }
-    // Сконструировать копию объекта TwoDShape.
-    public TwoDShape(TwoDShape ob)
-    {
-        Width = ob.Width;
-        Height = ob.Height;
     }
     // Свойства ширины и высоты объекта.
     public double Width
@@ -49,31 +43,31 @@ namespace WindowsFormsApp1
         return str;
     }
 }
-// Класс для треугольников, производный от класса TwoDShape.
+    // Класс для треугольников, производный от класса TwoDShape.
     class Triangle : TwoDShape
     {
         string Style;
+        new double pri_width = 0;
+        new double pri_height = 0;
         // Конструктор, используемый по умолчанию.
         public Triangle()
         {
             Style = "null";
         }
-        // Конструктор для класса Triangle.
+        // Вызвать конструктор базового класса.
         public Triangle(string s, double w, double h) : base(w, h)
         {
             Style = s;
+            base.pri_width = w;
+            base.pri_height = h;
         }
+
         // Сконструировать равнобедренный треугольник.
         public Triangle(double x) : base(x)
         {
             Style = "равнобедренный";
         }
-        // Сконструировать копию объекта типа Triangle.
-        public Triangle(Triangle ob) : base(ob)
-        {
-            Style = ob.Style;
-        }
-        // Возвратить площадь треугольника.
+
         public double Area()
         {
             return Width * Height / 2;
@@ -84,5 +78,9 @@ namespace WindowsFormsApp1
             string str = "Треугольник " + Style + "\n";
             return str;
         }
+        // Расширить класс Triangle. 
     }
+    //Класс цвнт производны от Triabgle.
+    
+
 }

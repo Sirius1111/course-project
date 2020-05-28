@@ -52,21 +52,9 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Content task3 = new Content();
-            Triangle t1 = new Triangle("прямоугольный", 8.0, 12.0);
-            // Сделать копию объекта t1.
-            Triangle t2 = new Triangle(t1);
-
-            task3.title = "Рисунки на Электоргитаре";
-            task3.text = "Нужно нарисовать 2 рисуна для гитары, вот данные:";
-
-            PrintText(task3.title, titleTheme);
-            PrintText(task3.text, description);
-
-            code.Text = "Сведения о Рисунке 1:\n" + t1.ShowStyle() + "Площадь равна " + t1.Area() + "\n" + t1.ShowDim() +
-                        "\n\nСведения о Рисунке 2: \n" + t1.ShowStyle() + t2.ShowDim() + "\nПлощадь равна " + t2.Area();
-
-
+            this.Hide();
+            var c = new Change();
+            c.Show();
         }
 
         private void nextStep_Click(object sender, EventArgs e)
